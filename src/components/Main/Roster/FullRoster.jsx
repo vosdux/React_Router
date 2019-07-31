@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import PlayerAPI from './PlayerAPI';
 
+
 const FullRoster = () => (
     <div>
         <ul>
