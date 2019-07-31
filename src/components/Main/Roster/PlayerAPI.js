@@ -1,11 +1,11 @@
 const PlayerAPI = {
     players: [
-      { number: 1, name: "Ben Blocker", position: "G" },
-      { number: 2, name: "Dave Defender", position: "D" },
-      { number: 3, name: "Sam Sweeper", position: "D" },
-      { number: 4, name: "Matt Midfielder", position: "M" },
-      { number: 5, name: "William Winger", position: "M" },
-      { number: 6, name: "Fillipe Forward", position: "F" }
+      { number: 1, name: "Ben Blocker", position: "Goalie" },
+      { number: 2, name: "Dave Defender", position: "Def" },
+      { number: 3, name: "Sam Sweeper", position: "Def" },
+      { number: 4, name: "Matt Midfielder", position: "Midf" },
+      { number: 5, name: "William Winger", position: "Midf" },
+      { number: 6, name: "Fillipe Forward", position: "Forward" }
     ],
     all: function() { return this.players},
     get: function(id) {

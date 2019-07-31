@@ -1,5 +1,6 @@
 import React from 'react';
 import PlayerAPI from './PlayerAPI';
+import styled from 'styled-components';
 
 const Player = (props) => {
     const player = PlayerAPI.get(
@@ -11,9 +12,13 @@ const Player = (props) => {
     return (
         <div>
             <h1>{player.name} (#{player.number})</h1>
-            <h1>{player.positions}</h1>
+            <Center>{player.position}</Center>
         </div>
     )
 }
+
+const Center = styled.h1`
+    text-align: center;
+`
 
 export default Player;
